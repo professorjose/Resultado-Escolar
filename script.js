@@ -6,8 +6,8 @@ function verificar(){
     var media = (parseFloat(n1)+parseFloat(n2)+parseFloat(n3))/3;
 
     if (media >= 6){
-        resultado.textContent = "Parabéns! Aprovado com média " + media +".";
+        resultado.textContent = "Parabéns! Aprovado com média " + media.toFixed(1) +".";
     } else {
-        resultado.textContent = "Reprovado com média " + media + ".";
+        resultado.textContent = "Reprovado com média " + media.toFixed(1) + ".";
     }
 }
