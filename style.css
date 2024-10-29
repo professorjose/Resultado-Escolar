@@ -1,5 +1,8 @@
 body{
     background-color: rgb(90, 202, 202);
     text-align: center;
+}
+
+button{
     cursor: pointer;
 }
